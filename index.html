@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practical Todos</title>
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+    <h1 id="appTitle">Todo List</h1>
+    
+    <section id="appCore">
+        <div>
+          <button onclick="handlers.addTodo()">Add new Todo</button>
+          <input id="addTodoTextInput" type="text">
+        </div>
+
+        <div>
+          <button onclick="handlers.changeTodo()">Change Todo</button>
+          <input id="changeTodoPositionInput" type="number" placeholder="Todo number (start from 0)">
+          <input id="changeTodoTextInput" type="text" placeholder="Change text to...">
+        </div>
+
+        <div>
+          <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+          <input id="toggleCompletedPositionInput" type="number" placeholder="Enter todo's number">
+        </div>
+        
+        <div>
+          <button onclick="handlers.toggleAll()" id="togAll">Toggle All</button>
+        </div>
+        
+        <div id="yourTodos">
+            <h3>Your todos:</h3>
+        </div>
+
+        <ul>
+        </ul>
+    </section><!--#appCore-->
+  
+    <script src="todo.js"></script>
+  </body>
+</html>
