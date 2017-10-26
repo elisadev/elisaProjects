@@ -1,0 +1,91 @@
+body {
+    background-color:darkslateblue;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#appTitle {
+    text-align: center;
+    color: #fff;
+}
+
+#appCore {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+input {
+    height: 28px;
+    width: 180px;
+    border: solid 1px darkslateblue;
+    border-radius: 3px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+#changeTodoTextInput {
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.deleteButton {
+    background-color: #eee;
+    color: dimgrey;
+    border-radius: 6px;
+    border: solid 1px #eee;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div button {
+    height: 38px;
+    width: 120px;
+    border-radius: 3px;
+    background-color: #18c1c3;
+    border: solid 1px #18c1c3;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 12px;
+    margin-right: 45px;
+}
+
+#togAll {
+    width: 100%;
+}
+
+div {
+    margin: 11px;
+}
+
+#yourTodos{
+    margin-top: 45px;
+}
+
+@media screen and (min-width: 450px) {
+    input {
+        height: 28px;
+        width: 200px;
+    }
+    
+    #changeTodoTextInput {
+         margin-left: 170px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
